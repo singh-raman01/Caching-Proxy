@@ -76,7 +76,7 @@ func startProxyServer(){
 	defer autoShutdownTimer.Stop() 
 
 	go func() {
-		log.Printf("Starting caching proxy server on :%s", ProxyPort)
+		log.Printf("Starting caching proxy server on :%v", ProxyPort)
 		log.Printf("Proxying requests for %s", server.TargetURL)
 		log.Printf("Default cache TTL: %v", server.CacheTTL)
 		log.Printf("Automatic shutdown in %v if no explicit command.", server.AutoShutdownDuration)

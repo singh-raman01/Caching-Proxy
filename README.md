@@ -41,3 +41,7 @@ The caching proxy server should start on port 3000 and forward requests to http:
 ### Featues:
 
 ### Future Roadmap:
+
+1. Replace in memory Cache with Redis
+2. Achieve parallel read/writes
+3. Convert the code into functional for side-effect management
