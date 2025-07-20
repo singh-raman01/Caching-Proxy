@@ -1,0 +1,46 @@
+# Binaries
+caching-proxy
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go build
+/bin/
+/build/
+/out/
+
+# Go modules
+/go.sum
+/go.mod
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dependency directories (if you vendor)
+vendor/
+
+# Ignore test binary
+*.test
+
+# Ignore generated files (if any)
+*.out
+
+# Ignore coverage files
+coverage.out
+
+# Ignore GitHub workflows cache or logs (optional)
+.github/workflows/*.cache
