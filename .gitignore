@@ -13,8 +13,6 @@ caching-proxy
 
 # Go modules
 /go.sum
-/go.mod
-
 # Editor files
 .vscode/
 *.swp
